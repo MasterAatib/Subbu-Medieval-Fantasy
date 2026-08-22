@@ -1,0 +1,30 @@
+{
+  "format_version": "1.26.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "su:japanese_samurai_chestplate",
+      "menu_category": {
+        "category": "equipment",
+        "group": "minecraft:itemGroup.name.chestplate"
+      }
+    },
+    "components": {
+      "minecraft:icon": "su:japanese_samurai_chestplate",
+      "minecraft:display_name": {
+        "value": "Japanese Samurai Chestplate"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:enchantable": {
+        "value": 10,
+        "slot": "armor_torso"
+      },
+      "minecraft:wearable": {
+        "slot": "slot.armor.chest",
+        "protection": 2
+      },
+      "minecraft:durability": {
+        "max_durability": 80
+      }
+    }
+  }
+}
