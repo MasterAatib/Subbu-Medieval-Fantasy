@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Subbu Medieval Fantasy – Behavior",
+    "description": "Custom dimensions and teleportation for historical timelines.",
+    "uuid": "7ba38acf-5964-4d5e-bac3-c37354a7dd46",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 26, 30]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "e582cf87-df3f-4daa-b15b-aded2008e942",
+      "version": [1, 0, 0]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "cba4667d-b269-42ea-96fd-54337eeb8106",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "0f06676f-97c5-435c-9c98-6fee326a9747",
+      "version": [1, 0, 0]
+    }
+  ]
+}

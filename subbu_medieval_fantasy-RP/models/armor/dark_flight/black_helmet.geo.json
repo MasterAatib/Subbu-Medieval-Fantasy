@@ -1,0 +1,35 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.black_helmet",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Helmet",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "Head",
+					"parent": "Helmet",
+					"pivot": [0, 24, 0],
+					"cubes": [
+						{"origin": [-4.6, 23.4, -4.6], "size": [9.2, 9.2, 9.2], "uv": [0, 0]},
+						{"origin": [-4.1, 23.9, -4.55], "size": [8.2, 8.2, 0], "uv": [36, 0]},
+						{"origin": [-4.65, 23.52292, -3.68368], "size": [9.3, 5.2, 6], "pivot": [0, 0.12292, 0.91632], "rotation": [2.5, 0, 0], "uv": [24, 18]},
+						{"origin": [0, 31.6718, -9.1359], "size": [0, 10, 10], "pivot": [0, 23.6718, -5.1359], "rotation": [-30, 0, 0], "uv": [24, 29]},
+						{"origin": [0.47741, 32.68059, -9.1359], "size": [0, 10, 10], "pivot": [0.47741, 24.68059, -5.1359], "rotation": [-30, 0, 27.5], "uv": [0, 40]},
+						{"origin": [-0.47653, 32.68105, -9.1359], "size": [0, 10, 10], "pivot": [-0.47653, 24.68105, -5.1359], "rotation": [-30, 0, -27.5], "uv": [44, 29]},
+						{"origin": [0, 24, -6], "size": [0, 10, 12], "uv": [0, 18]}
+					]
+				}
+			]
+		}
+	]
+}

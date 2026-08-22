@@ -1,0 +1,23 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "su:cowboy_hat",
+      "materials": {
+        "default": "armor",
+        "enchanted": "armor_enchanted"
+      },
+      "textures": {
+        "default": "textures/models/armor/cowboy_armor",
+        "enchanted": "textures/misc/enchanted_actor_glint"
+      },
+      "geometry": {
+        "default": "geometry.cowboy_hat"
+      },
+      "scripts": {
+        "parent_setup": "v.helmet_layer_visible = 1.0;"
+      },
+      "render_controllers": ["controller.render.armor"]
+    }
+  }
+}

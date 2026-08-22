@@ -1,0 +1,56 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.cowboy_hat",
+				"texture_width": 88,
+				"texture_height": 88,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "Waist",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "Head",
+					"parent": "Waist",
+					"pivot": [0, 24, 0],
+					"cubes": [
+						{"origin": [-4, 32, -4], "size": [8, 3, 8], "inflate": 0.6, "uv": [46, 30]},
+						{"origin": [-5, 30.75, -5], "size": [10, 1, 10], "pivot": [0, 30.75, 0], "rotation": [5, 0, 0], "uv": [46, 19]},
+						{"origin": [-6, 31, -10], "size": [12, 0, 19], "pivot": [0, 31, 0], "rotation": [5, 0, 0], "uv": [0, 0]},
+						{"origin": [6, 30.21559, -8.96584], "size": [5, 0, 18], "pivot": [6, 30.21659, -8.96584], "rotation": [4.69986, 1.70818, -19.9299], "uv": [0, 19]},
+						{"origin": [-11, 30.21559, -8.96584], "size": [5, 0, 18], "pivot": [-6, 30.21659, -8.96584], "rotation": [4.69986, -1.70818, 19.9299], "uv": [0, 37]}
+					]
+				},
+				{
+					"name": "Body",
+					"parent": "Waist",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "Right Arm",
+					"parent": "Waist",
+					"pivot": [-5, 22, 0]
+				},
+				{
+					"name": "Left Arm",
+					"parent": "Waist",
+					"pivot": [5, 22, 0]
+				},
+				{
+					"name": "Right Leg",
+					"pivot": [-1.9, 12, 0]
+				},
+				{
+					"name": "Left Leg",
+					"pivot": [1.9, 12, 0]
+				}
+			]
+		}
+	]
+}

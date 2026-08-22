@@ -1,0 +1,23 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "My Addon - Resource Pack",
+    "description": "Resource Pack for My Addon",
+    "uuid": "0f06676f-97c5-435c-9c98-6fee326a9747",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "4f23434d-6c52-4d8b-8ae4-14f866949c00",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "7ba38acf-5964-4d5e-bac3-c37354a7dd46",
+      "version": [1, 0, 0]
+    }
+  ]
+}
