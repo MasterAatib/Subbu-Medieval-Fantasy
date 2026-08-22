@@ -1,0 +1,78 @@
+{
+  "resource_pack_name": "Subbu Medieval Fantasy - Armor Expansion",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "su:dark_flight_helmet": {
+      "textures": "textures/items/dark_flight_helmet"
+    },
+    "su:dark_flight_chestplate": {
+      "textures": "textures/items/dark_flight_chestplate"
+    },
+    "su:dark_flight_leggings": {
+      "textures": "textures/items/dark_flight_leggings"
+    },
+    "su:dark_flight_boots": {
+      "textures": "textures/items/dark_flight_boots"
+    },
+    "su:cowboy_helmet": {
+      "textures": "textures/items/cowboy_helmet"
+    },
+    "su:cowboy_chestplate": {
+      "textures": "textures/items/cowboy_chestplate"
+    },
+    "su:cowboy_leggings": {
+      "textures": "textures/items/cowboy_leggings"
+    },
+    "su:cowboy_boots": {
+      "textures": "textures/items/cowboy_boots"
+    },
+    "su:desert_bandit_helmet": {
+      "textures": "textures/items/desert_bandit_helmet"
+    },
+    "su:desert_bandit_chestplate": {
+      "textures": "textures/items/desert_bandit_chestplate"
+    },
+    "su:desert_bandit_leggings": {
+      "textures": "textures/items/desert_bandit_leggings"
+    },
+    "su:desert_bandit_boots": {
+      "textures": "textures/items/desert_bandit_boots"
+    },
+    "su:nameless_assassin_helmet": {
+      "textures": "textures/items/nameless_assassin_helmet"
+    },
+    "su:nameless_assassin_chestplate": {
+      "textures": "textures/items/nameless_assassin_chestplate"
+    },
+    "su:nameless_assassin_leggings": {
+      "textures": "textures/items/nameless_assassin_leggings"
+    },
+    "su:nameless_assassin_boots": {
+      "textures": "textures/items/nameless_assassin_boots"
+    },
+    "su:japanese_samurai_helmet": {
+      "textures": "textures/items/japanese_samurai_helmet"
+    },
+    "su:japanese_samurai_chestplate": {
+      "textures": "textures/items/japanese_samurai_chestplate"
+    },
+    "su:japanese_samurai_leggings": {
+      "textures": "textures/items/japanese_samurai_leggings"
+    },
+    "su:japanese_samurai_boots": {
+      "textures": "textures/items/japanese_samurai_boots"
+    },
+    "su:king_helmet": {
+      "textures": "textures/items/king_helmet"
+    },
+    "su:king_chestplate": {
+      "textures": "textures/items/king_chestplate"
+    },
+    "su:king_leggings": {
+      "textures": "textures/items/king_leggings"
+    },
+    "su:king_boots": {
+      "textures": "textures/items/king_boots"
+    }
+  }
+}
